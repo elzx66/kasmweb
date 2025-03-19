@@ -1,5 +1,5 @@
 # 使用 kasmweb/chrome 作为基础镜像
-FROM kasmweb/chrome
+FROM kasmweb/chrome:1.16.1
 
 # 设置语言环境变量，实现中文支持
 ENV LANG=zh_CN.UTF-8
